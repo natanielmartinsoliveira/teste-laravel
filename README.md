@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-# teste-laravel
 
-# Executar o Docker
-```````````````````````````````
-docker-compose build
-``````````````````````````````
-```````````````````````````````
-docker-composer up -d
-``````````````````````````````
-=======
 <div align="center">
     
   <p>
@@ -49,4 +39,4 @@ docker exec (container_id) php artisan migrate
 </section>
 
 
->>>>>>> 01f05be45322cc34927e0d1a1ebc97b47ad09228
+
