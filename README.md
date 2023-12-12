@@ -10,18 +10,17 @@
 
 <section id="test-db" style="padding: 10px;">
 <h2>Running and testing our project.</h2>
-<p>With all set up let's bring our environment to life.</p>
-<p>In <code>/environmentProject/</code> directory, build all images with:</p>
+<p>Com tudo já configurado chegou de rodar nosso ambiente.</p>
+<p>No seu terminal navegue até o diretório <code>/environmentProject/</code> e passe o comando para o docker-compose começar a construir os containers:</p>
 <pre>
 docker-compose build
 </pre>
-<p>When its over, let's run all containers with:</p>
+<p>Assim que a execução do comando for finalizada entre com o comando para começar a rodar os containers:</p>
 <pre>
 docker-composer up -d
 </pre>
-<p>Get in your <a href="https://localhost">localhost</a> and voilá!</p>
-<p>With all running, you can test your MySql connection navigating to <a href="http://localhost/index.php">localhost/index.php</a>. If all is okay you will receive a successfully message.</p>
-<p>For laravel test, you will need to edit <code>/example-app/.env</code> and set your connection with mysql. Example:</p>
+<p>Feito isso basta entrar no seu <a href="https://localhost">localhost:8082</a> e pronto! </p>
+<p>Caso queira testar sua conexão via Laravel você vai precisar editar o arquivo /example-app/.env e setar as seguintes configurações:</p>
 <pre>
 DB_CONNECTION=mysql
 DB_HOST=db
@@ -30,12 +29,12 @@ DB_DATABASE=test_db
 DB_USERNAME=devuser
 DB_PASSWORD=devpass
 </pre>
-<p>Save and exec follow commands:</p>
+<p>Feito isso, salve e execute os seguintes comandos no seu terminal:</p>
 <pre>
 docker exec (container_id) composer dump-autoload
 docker exec (container_id) php artisan migrate
 </pre>
-<p>If you don't receive any error message your connection is fine and you are ready to codding.</p>
+<p>Caso não receba nenhuma mensagem de erro sua conexão com o banco de dados está ok e você está pronto para começar!</p>
 </section>
 
 
