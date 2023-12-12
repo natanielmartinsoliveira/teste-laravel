@@ -1,14 +1,6 @@
 <div align="center">
-      <a href="https://alisonjuliano.com">
-        <img src="https://imgur.com/13kinqs.jpg">
-    </a>
+    
   <p>
-    <p style="font-style: italic;">"I decided to follow the path of rabbit hole, let's see how far this can take us" - <a href="https://alisonjuliano.com">AJ</a>
-    </p>
-    <p style="font-weight: bold;">Sharing, learning and knowing people all around the world. Let's code!</p>
-    <a href="https://alisonjuliano.com"> 
-    <img src="https://img.shields.io/static/v1?label=Fullstack&message=AJ&color=64ffda&style=for-the-badge&logo=dungeonsanddragons">
-    </a>
     <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
     <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white">
     <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white">
