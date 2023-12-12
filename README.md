@@ -38,13 +38,4 @@ docker exec (container_id) php artisan migrate
 <p>If you don't receive any error message your connection is fine and you are ready to codding.</p>
 </section>
 
-<div align="center">
-<h2>Contact-me</h2>
-<p>
-If you want help or send a feedback, get in my website and send me a e-mail:
-</p>
-    <a href="https://alisonjuliano.com">
-        <img src="https://i.imgur.com/0aMXtBq.png" width="239" height="100">
-    </a>
-</div>
 
