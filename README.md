@@ -8,13 +8,6 @@
   </p>
 </div><br>
 
-<h1> Docker: Nginx, PHP (Laravel) and MySql. </h1>
-
-<p>With Docker Compose I'm running three containers, each one with: Nginx, PHP (with composer, xdebug and configs) and MySql.</p>
-
-<p>
-The purpose of this guide is to give some reference and help, don't feel tied to the same configs.
-</p>
 
 <section style="padding: 10px;">
 <h2>Overview</h2>
