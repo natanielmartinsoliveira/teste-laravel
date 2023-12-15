@@ -18,7 +18,7 @@ docker-compose build
 </pre>
 <p>Assim que a execução do comando for finalizada entre com o comando para começar a rodar os containers:</p>
 <pre>
-docker-composer up -d
+docker-compose up -d
 </pre>
 <p>Feito isso basta entrar no seu <a href="https://localhost">localhost:8082</a> e pronto! </p>
 <p>Caso queira testar sua conexão via Laravel você vai precisar editar o arquivo /example-app/.env e setar as seguintes configurações:</p>
