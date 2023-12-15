@@ -26,10 +26,9 @@ RUN set -ex \
     && docker-php-ext-install $MEMCACHED \
     && rm -rf $MEMCACHED
 
-RUN apt-get install zip unzip \
-    && curl -sS https://getcomposer.org/installer -o composer-setup.php \
-    && php composer-setup.php --install-dir=/usr/local/bin --filename=composer \
-    && unlink composer-setup.php
+RUN apt-get install zip unzip 
+
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 RUN echo 'date.timezone="America/Sao_Paulo"' >> /usr/local/etc/php/conf.d/date.ini \
     && echo 'opcache.enable=1' >> /usr/local/etc/php/conf.d/opcache.conf \
